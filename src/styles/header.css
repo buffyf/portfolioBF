@@ -1,0 +1,123 @@
+.navigation-area {
+    background-color: transparent;
+    height: 100px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.navbar > .container {
+    flex-direction: row-reverse;
+}
+
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    border-radius: 1px;
+    margin-bottom: 6px;
+    transition: all .3s;
+}
+
+.navbar-collapse {
+    transition: all 1s;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler:hover {
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+#hamburger-button {
+    background-color: black;
+    border: none;
+    z-index: 100;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+#hamburger-button:active {
+    outline: none;
+}
+
+#hamburger-button:focus {
+    outline: none;
+}
+
+.hamburger-navbar {
+    background-color: #aeafb3;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+}
+
+.hamburger-navbar a {
+    color: white;
+    font-size: 4em;
+}
+
+.hamburger-navbar a:hover {
+    color: #C8EFEB;
+}
+
+#master#hamburger-button {
+    justify-content: flex-end;
+}
+
+@media (max-width: 545px) {
+    .nav-link {
+        font-size: .8em;
+        letter-spacing: .2em;
+        line-height: 80px;
+    }
+    .navigation-area {
+        height: 80px;
+        align-items: center;
+    }
+    .hamburger-navbar a {
+        color: white;
+        font-size: 2.5em;
+    }
+    .hamburger-navbar {
+        padding-top: 40%;
+    }
+}

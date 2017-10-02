@@ -1,0 +1,161 @@
+ #skills {
+     background-color: #E7E247;
+     color: #E7E247;
+     min-height: 100vh;
+ }
+ /* #skills-title {
+     background-color: #E7E247;
+     z-index: 20;
+     position: relative;
+     display: inline-block;
+     padding: 0px 20px;
+     margin-left: 30px;
+ } */
+ /* #about-me-text {
+     margin-top: -2em;
+     text-align: left;
+     font-family: 'Lato';
+     letter-spacing: .05em;
+     font-weight: 300;
+     border: solid white 2px;
+     padding: 3em;
+     text-align: left;
+ } */
+ 
+ #skills {
+     position: relative;
+ }
+ /* #skills p {
+     font-size: 18px;
+ } */
+ /* #text-container {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: left;
+ } */
+ 
+ @media (max-width: 545px) {
+     #text-container {
+         top: 0;
+         left: 0;
+         transform: none;
+         position: relative;
+     }
+     #about-me-text {
+         font-size: 1em;
+         padding: 2em 1em 1em 1em;
+     }
+     #skills {
+         padding-top: 8em;
+         padding-bottom: 2em;
+     }
+ }
+ /* TABLE */
+ 
+ table {
+     width: 100%;
+     table-layout: fixed;
+     border-collapse: collapse;
+ }
+ 
+ td {
+     /* border: 1px solid white; */
+     position: relative;
+ }
+ 
+ .cell-text {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     text-transform: uppercase;
+     font-family: 'Lato';
+     text-align: center;
+     font-size: 1.4rem;
+     /* background-color: black; */
+ }
+ 
+ .cell-bulk {
+     padding-top: 100%;
+     margin-right: 0;
+ }
+ 
+ .style1, .style5, .style7, .style14, .style16 {
+     background: #2E6171;
+ }
+ 
+ .style2, .style8, .style18 {
+     background: gray;
+ }
+ 
+ .style3, .style10, .style17 {
+     background: #40414A;
+ }
+ 
+ .style4, .style9, .style13 {
+     background: #3A405A;
+ }
+ 
+ .style12, .style15 {
+     background: #aeafb3;
+ }
+ 
+ .style6, .style11 {
+     background: #f7f7f7
+ }
+ /* TABLE HOVER */
+ 
+ td:hover {
+     color: transparent;
+ }
+ 
+ .style12:hover, .style15:hover {
+     background: #40414A;
+ }
+ 
+ .style3:hover, .style10:hover {
+     background-image: linear-gradient(135deg, #2E6171 50%, #dbdbdd 50%);
+ }
+ 
+ .style2:hover, .style8:hover, .style18:hover {
+     background-image: linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
+     background-size: 100% 14px;
+ }
+ 
+ .style1:hover, .style7:hover, .style14:hover {
+     background-image: linear-gradient(45deg, #E7E247 50%, #f7f7f7 50%);
+ }
+ 
+ .style13:hover {
+     background-image: linear-gradient(135deg, #40414A 50%, transparent 50%), linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
+     background-size: 100%, 100% 14px;
+ }
+ 
+ .style4:hover, .style9:hover {
+     background: linear-gradient(45deg, #dbdbdd 50%, transparent 50%), radial-gradient(#40414A 4px, transparent 4px), radial-gradient(#40414A 4px, transparent 4px), transparent;
+     background-size: 100%, 24px 24px, 24px 24px, 100%;
+     background-position: 0 0, -2px 6px, 10px 18px, 0 0;
+ }
+ 
+ .style6:hover {
+     background-image: linear-gradient(315deg, #E7E247 50%, #f7f7f7 50%);
+ }
+ 
+ .style16:hover {
+     background-image: linear-gradient(225deg, #2E6171 50%, #f7f7f7 50%);
+ }
+ 
+ .style11:hover {
+     background-image: linear-gradient(45deg, #2E6171 50%, #f7f7f7 50%);
+ }
+ 
+ .style5:hover {
+     background-image: linear-gradient(225deg, #E7E247 50%, #f7f7f7 50%);
+ }
+ 
+ .style17:hover {
+     background-image: linear-gradient(to right, #2E6171, #2E6171 4px, #f7f7f7 4px, #f7f7f7);
+     background-size: 8px 100%;
+ }
