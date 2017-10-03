@@ -16,6 +16,7 @@
     display: inline-block;
     padding: 0px 20px;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 #contact-info p {
@@ -37,7 +38,7 @@
 }
 
 .social-icons:hover {
-    color: #C8EFEB;
+    color: #E7E247;
 }
 
 #contact-wrapper {
@@ -51,7 +52,7 @@
 
 #contact-info {
     margin-top: -2em;
-    border: solid 2px white;
+    /* border: solid 2px white; */
     padding: 2em 1em;
 }
 
@@ -66,6 +67,14 @@ i {
 #icons {
     display: flex;
     justify-content: space-around;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #E7E247;
 }
 
 #name-and-links {

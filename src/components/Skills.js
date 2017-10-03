@@ -11,7 +11,7 @@ export default class Skills extends Component {
                 <div className="">
                     <div className="" id="">
                         <div className="col-md-8" id="text-container">
-                            <h2 id="">Skills</h2>
+                            <h2 id="skills-title">Skills</h2>
                             <div id="">
                                 <table>
                                     <tr>

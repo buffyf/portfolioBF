@@ -54,10 +54,6 @@ gray-darker: #40414A;
     justify-content: center;
 }
 
-.title-1:hover, .title-2:hover, .title-3:hover {
-    color: #E7E247;
-}
-
 .title-1, .title-3 {
     font-weight: 800;
     font-size: 3em;
@@ -131,6 +127,18 @@ gray-darker: #40414A;
     background-size: 8px 100%;
 }
 
+.block-title:hover {
+    background-image: url("../styles/img/buffy_feinstein_BW.jpg");
+    width: 375px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    color: transparent;
+}
+
 .block:hover {
     box-shadow: 0px 0px 150px gray;
     z-index: 200;
@@ -142,7 +150,149 @@ gray-darker: #40414A;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1);
-    background: green;
+}
+
+.style-1:hover {
+    background-image: url("../styles/img/martha.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-2:hover {
+    background-image: url("../styles/img/martha.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-3:hover {
+    background-image: url("../styles/img/martha.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-4:hover {
+    background-image: url("../styles/img/queso.jpg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-5:hover {
+    background-image: url("../styles/img/hulu.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-6:hover {
+    background-image: url("../styles/img/seinfeld.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-7:hover {
+    background-image: url("../styles/img/cheese.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-8:hover {
+    background-image: url("../styles/img/chicago.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-9:hover {
+    background-image: url("../styles/img/cubs.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-10:hover {
+    background-image: url("../styles/img/hgtv.jpg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-11:hover {
+    background-image: url("../styles/img/cake.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-12:hover {
+    background-image: url("../styles/img/martha.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.style-13:hover {
+    background-image: url("../styles/img/martha.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #aboutText {
