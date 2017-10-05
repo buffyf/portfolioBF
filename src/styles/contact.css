@@ -5,18 +5,11 @@
     position: relative;
 }
 
-#contact h2 {
-    text-align: left;
-}
-
 #contact-title {
     background-color: #2E6171;
     z-index: 20;
-    position: relative;
-    display: inline-block;
-    padding: 0px 20px;
-    margin-left: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 #contact-info p {
@@ -77,19 +70,18 @@ a:hover {
     color: #E7E247;
 }
 
-#name-and-links {
-    display: flex;
-}
-
 @media (max-width: 545px) {
-    #name-and-links {
+    #icons {
         flex-direction: column;
     }
-    #icons {
-        padding: .1em;
+    #icons a {
+        align-self: center;
     }
     #contact-wrapper {
         padding-top: 8em;
         padding-bottom: 4em;
+    }
+    #contact-title {
+        margin-left: 5rem;
     }
 }

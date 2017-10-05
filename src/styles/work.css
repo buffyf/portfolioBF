@@ -67,23 +67,23 @@
 .live-btn:hover {
     color: white;
     text-decoration: none;
-    background-color: pink;
+    background-color: #E7E247;
     width: 50%;
 }
 
 .github-btn:hover {
     color: white;
     text-decoration: none;
-    background-color: pink;
+    background-color: #E7E247;
 }
 
 .view-more {
     text-align: right;
-    color: rgba(255, 255, 255, .9);
+    color: white;
 }
 
 .view-more:hover {
-    color: white;
+    color: #E7E247;
 }
 
 @media (max-width: 545px) {

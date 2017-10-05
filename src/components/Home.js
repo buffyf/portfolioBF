@@ -6,15 +6,15 @@ export default class Home extends Component {
         return (
             <div className="home">
                 <div className="wrap">
-                    <div className="block style-1"></div>
-                    <div className="block style-2"></div>
-                    <div className="block style-3"></div>
-                    <div className="block style-4"></div>
-                    <div className="block style-5"></div>
-                    <div className="block style-6"></div>
-                    <div className="block style-7"></div>
-                    <div className="block style-8"></div>
-                    <div className="block style-9"></div>
+                    <div className="block style-1 h1"></div>
+                    <div className="block style-2 h2"></div>
+                    <div className="block style-3 h3"></div>
+                    <div className="block style-4 h4"></div>
+                    <div className="block style-5 h5"></div>
+                    <div className="block style-6 h6"></div>
+                    <div className="block style-7 h7"></div>
+                    <div className="block style-8 h8"></div>
+                    <div className="block style-9 h9"></div>
                     <div className="block-title">
                         <div className="title-1">
                             <span>B</span>
@@ -50,15 +50,15 @@ export default class Home extends Component {
                             <span>R</span>
                         </div>
                     </div>
-                    <div className="block style-10"></div>
-                    <div className="block style-6"></div>
-                    <div className="block style-3"></div>
-                    <div className="block style-12"></div>
-                    <div className="block style-1"></div>
-                    <div className="block style-11"></div>
-                    <div className="block style-7"></div>
-                    <div className="block style-2"></div>
-                    <div className="block-13"></div>
+                    <div className="block style-10 h10"></div>
+                    <div className="block style-6 h11"></div>
+                    <div className="block style-3 h12"></div>
+                    <div className="block style-12 h13"></div>
+                    <div className="block style-1 h14"></div>
+                    <div className="block style-11 h15"></div>
+                    <div className="block style-7 h16"></div>
+                    <div className="block style-2 h17"></div>
+                    <div className="block-13 h18"></div>
                 </div>
                 <div>
                     <div id="bio" className="container">
@@ -66,7 +66,7 @@ export default class Home extends Component {
                             <div className="about-box">
                                 <div>
                                     <p id="aboutText">Hi, I'm Buffy. I'm a front-end web developer and designer based out of Chicago, IL. Before pivoting my career to development, I was part of many different collaborative creative processes. Whether coordinating project logistics, integrating technology in the classroom, or baking and decorating the perfect cake - I love making awesome things.
-                <br />
+                                        <br />
                                         <br />
                                         When I'm not coding, you'll find me baking, making, hiking, biking, cooking, booking, dining, and reclining.</p>
                                 </div>

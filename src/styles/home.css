@@ -56,12 +56,12 @@ gray-darker: #40414A;
 
 .title-1, .title-3 {
     font-weight: 800;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 .title-2 {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.1vw;
 }
 
 .style-1 {
@@ -128,12 +128,12 @@ gray-darker: #40414A;
 }
 
 .block-title:hover {
-    background-image: url("../styles/img/buffy_feinstein_BW.jpg");
+    background-image: url("../styles/img/buffy_feinsteinBW.jpg");
     width: 375px;
     height: 250px;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     overflow: hidden;
     color: transparent;
@@ -142,83 +142,17 @@ gray-darker: #40414A;
 .block:hover {
     box-shadow: 0px 0px 150px gray;
     z-index: 200;
-    -webkit-transition: all 200ms ease-in;
+    -webkit-transition: all 100ms ease-in;
     -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
+    -ms-transition: all 100ms ease-in;
     -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
+    -moz-transition: all 100ms ease-in;
     -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
+    transition: all 100ms ease-in;
     transform: scale(1);
 }
 
-.style-1:hover {
-    background-image: url("../styles/img/martha.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-2:hover {
-    background-image: url("../styles/img/martha.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-3:hover {
-    background-image: url("../styles/img/martha.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-4:hover {
-    background-image: url("../styles/img/queso.jpg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-5:hover {
-    background-image: url("../styles/img/hulu.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-6:hover {
-    background-image: url("../styles/img/seinfeld.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-7:hover {
+.h1:hover {
     background-image: url("../styles/img/cheese.jpeg");
     width: 125px;
     height: 125px;
@@ -229,8 +163,8 @@ gray-darker: #40414A;
     overflow: hidden;
 }
 
-.style-8:hover {
-    background-image: url("../styles/img/chicago.jpeg");
+.h2:hover {
+    background-image: url("../styles/img/kitten.jpeg");
     width: 125px;
     height: 125px;
     background-repeat: no-repeat;
@@ -240,8 +174,8 @@ gray-darker: #40414A;
     overflow: hidden;
 }
 
-.style-9:hover {
-    background-image: url("../styles/img/cubs.png");
+.h3:hover {
+    background-image: url("../styles/img/hulu.png");
     width: 125px;
     height: 125px;
     background-repeat: no-repeat;
@@ -251,18 +185,7 @@ gray-darker: #40414A;
     overflow: hidden;
 }
 
-.style-10:hover {
-    background-image: url("../styles/img/hgtv.jpg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.style-11:hover {
+.h4:hover {
     background-image: url("../styles/img/cake.jpeg");
     width: 125px;
     height: 125px;
@@ -273,7 +196,7 @@ gray-darker: #40414A;
     overflow: hidden;
 }
 
-.style-12:hover {
+.h5:hover {
     background-image: url("../styles/img/martha.jpeg");
     width: 125px;
     height: 125px;
@@ -284,8 +207,140 @@ gray-darker: #40414A;
     overflow: hidden;
 }
 
-.style-13:hover {
-    background-image: url("../styles/img/martha.jpeg");
+.h6:hover {
+    background-image: url("../styles/img/chicago.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h7:hover {
+    background-image: url("../styles/img/queso.jpg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h8:hover {
+    background-image: url("../styles/img/seinfeld1.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h9:hover {
+    background-image: url("../styles/img/cubs.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h10:hover {
+    background-image: url("../styles/img/podcast.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h11:hover {
+    background-image: url("../styles/img/hgtv.jpg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h12:hover {
+    background-image: url("../styles/img/bike.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h13:hover {
+    background-image: url("../styles/img/sewing.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h14:hover {
+    background-image: url("../styles/img/bigstar.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h15:hover {
+    background-image: url("../styles/img/npr.png");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h16:hover {
+    background-image: url("../styles/img/nola.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h17:hover {
+    background-image: url("../styles/img/gunn.jpeg");
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.h18:hover {
+    background-image: url("../styles/img/kitten.jpeg");
     width: 125px;
     height: 125px;
     background-repeat: no-repeat;
@@ -298,9 +353,6 @@ gray-darker: #40414A;
 #aboutText {
     background-color: #3A405A;
     color: white;
-}
-
-#aboutText {
     font-size: 1.5rem;
     padding: 2rem;
 }
@@ -312,18 +364,25 @@ gray-darker: #40414A;
 }
 
 @media (max-width: 545px) {
-    #text-container {
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .block-title {
+        display: none;
+    }
+    #about-container {
         top: 0;
         left: 0;
-        transform: none;
-        position: relative;
+        /* transform: none; */
+        /* position: relative; */
     }
     #aboutText {
         font-size: 1em;
-        padding: 2em 1em 1em 1em;
+        /* padding: 2em 1em 1em 1em; */
     }
     #bio {
-        padding-top: 8em;
+        padding-top: 2em;
         padding-bottom: 2em;
     }
 }

@@ -1,56 +1,19 @@
+     /* delete */
+     /* delete */
+     
      #skills {
          background-color: white;
          color: white;
          min-height: 100vh;
-     }
-     /* #skills-title {
-     background-color: #E7E247;
-     z-index: 20;
-     position: relative;
-     display: inline-block;
-     padding: 0px 20px;
-     margin-left: 30px;
- } */
-     /* #about-me-text {
-     margin-top: -2em;
-     text-align: left;
-     font-family: 'Lato';
-     letter-spacing: .05em;
-     font-weight: 300;
-     border: solid white 2px;
-     padding: 3em;
-     text-align: left;
- } */
-     
-     #skills {
-         position: relative;
+         display: flex;
+         justify-content: center;
      }
      
      #skills-title {
-         /* background-color: #2E6171; */
          z-index: 20;
-         position: relative;
-         display: inline-block;
-         padding: 0px 20px;
-         margin-left: 30px;
          color: #40414A;
-     }
-     
-     @media (max-width: 545px) {
-         #text-container {
-             top: 0;
-             left: 0;
-             transform: none;
-             position: relative;
-         }
-         #about-me-text {
-             font-size: 1em;
-             padding: 2em 1em 1em 1em;
-         }
-         #skills {
-             padding-top: 8em;
-             padding-bottom: 2em;
-         }
+         margin-top: 4rem;
+         text-align: center;
      }
      /* TABLE */
      
@@ -58,10 +21,10 @@
          width: 100%;
          table-layout: fixed;
          border-collapse: collapse;
+         margin-bottom: 2rem;
      }
      
      td {
-         /* border: 1px solid white; */
          position: relative;
      }
      
@@ -73,8 +36,7 @@
          text-transform: uppercase;
          font-family: 'Lato';
          text-align: center;
-         font-size: 1.4rem;
-         /* background-color: black; */
+         font-size: 2vw;
      }
      
      .cell-bulk {
@@ -103,7 +65,7 @@
      }
      
      .style6, .style11, .style1 {
-         background: #3A405A
+         background: #3A405A;
      }
      /* TABLE HOVER */
      
@@ -158,4 +120,16 @@
      .style17:hover {
          background-image: linear-gradient(to right, #2E6171, #2E6171 4px, #f7f7f7 4px, #f7f7f7);
          background-size: 8px 100%;
+     }
+     
+     @media (max-width: 545px) {
+         .cell-text {
+             font-size: .5rem;
+         }
+         #text-container {
+             top: 0;
+             left: 0;
+             transform: none;
+             position: relative;
+         }
      }

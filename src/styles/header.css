@@ -64,8 +64,9 @@
     border: none;
     z-index: 100;
     position: relative;
-    margin-right: 10px;
+    /* margin-right: 0px; */
     margin-top: 8px;
+    left: 100px;
 }
 
 #hamburger-button:active {
@@ -77,7 +78,7 @@
 }
 
 .hamburger-navbar {
-    background-color: #aeafb3;
+    background-color: #3A405A;
     height: 100%;
     width: 100vw;
     position: fixed;
@@ -96,7 +97,7 @@
 }
 
 .hamburger-navbar a:hover {
-    color: #C8EFEB;
+    color: #E7E247;
 }
 
 #master#hamburger-button {
