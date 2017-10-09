@@ -64,7 +64,7 @@ export default class Home extends Component {
                     <div id="bio" className="container">
                         <div id="about-container">
                             <div className="about-box">
-                                <div>
+                                <div className="text">
                                     <p id="aboutText">Hi, I'm Buffy. I'm a front-end web developer and designer based out of Chicago, IL. Before pivoting my career to development, I was part of many different collaborative creative processes. Whether coordinating project logistics, integrating technology in the classroom, or baking and decorating the perfect cake - I love making awesome things.
                                         <br />
                                         <br />

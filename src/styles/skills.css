@@ -70,7 +70,8 @@
      /* TABLE HOVER */
      
      td:hover {
-         color: transparent;
+         color: black;
+         font-weight: 600;
      }
      
      .style12:hover, .style15:hover {

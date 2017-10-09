@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/contact.css";
-import pdf from "../assets/BF_Resume.pdf"
+import pdf from "../assets/Buffy_Resume.pdf"
 
 export default class Contact extends Component {
 

@@ -78,10 +78,12 @@ a:hover {
         align-self: center;
     }
     #contact-wrapper {
-        padding-top: 8em;
-        padding-bottom: 4em;
+        padding-bottom: 3rem;
+        margin-top: 1rem;
+        background: #2E6171;
     }
     #contact-title {
-        margin-left: 5rem;
+        align-self: center;
+        padding-top: 5px;
     }
 }

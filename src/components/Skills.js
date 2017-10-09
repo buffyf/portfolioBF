@@ -27,12 +27,12 @@ export default class Skills extends Component {
                                     <td><div className='cell-bulk style8'></div><div className='cell-text'>BOOTSTRAP</div></td>
                                     <td><div className='cell-bulk style9'></div><div className='cell-text'>NODE.JS</div></td>
                                     <td><div className='cell-bulk style10'></div><div className='cell-text'>POSTGRESQL</div></td>
-                                    <td><div className='cell-bulk style11'></div><div className='cell-text'>HANDLEBARS</div></td>
+                                    <td><div className='cell-bulk style11'></div><div className='cell-text'>MUSTACHE</div></td>
                                     <td><div className='cell-bulk style12'></div><div className='cell-text'>SLACK</div></td>
                                 </tr>
                                 <tr>
                                     <td><div className='cell-bulk style13'></div><div className='cell-text'>CSS</div></td>
-                                    <td><div className='cell-bulk style14'></div><div className='cell-text'>ADOBE CC</div></td>
+                                    <td><div className='cell-bulk style14'></div><div className='cell-text'>PHOTOSHOP</div></td>
                                     <td><div className='cell-bulk style15'></div><div className='cell-text'>MONGO DB</div></td>
                                     <td><div className='cell-bulk style16'></div><div className='cell-text'>TRELLO</div></td>
                                     <td><div className='cell-bulk style17'></div><div className='cell-text'>GIT/ GITHUB</div></td>
