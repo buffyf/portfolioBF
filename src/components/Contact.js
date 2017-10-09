@@ -17,7 +17,7 @@ export default class Contact extends Component {
                                     <a href="https://www.linkedin.com/in/buffyfeinstein/" target="_blank"><i className="fa fa-linkedin-square social-icons" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Follow Me</a>
                                     <a href=""><i className="fa fa-phone-square social-icons" aria-hidden="true"></i>847.942.7691</a>
                                     <a href="mailto:buffyfeinstein@gmail.com" target="_blank"><i className="fa fa-envelope-square social-icons" aria-hidden="true"></i>Message Me</a>
-                                    <a href={pdf} target="blank"><i className="fa fa-arrow-circle-down social-icons" aria-hidden="true"></i>View My Resume</a>
+                                    <a href={pdf} target="blank"><i className="fa fa-arrow-circle-down social-icons" aria-hidden="true"></i>View My Resum&eacute;</a>
                                 </div>
                             </div>
                         </div>
