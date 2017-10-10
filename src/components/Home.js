@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Home extends Component {
     render() {
         return (
-            <div className="home">
+            <div className="row home">
                 <div className="wrap">
                     <div className="block style-1 h1"></div>
                     <div className="block style-2 h2"></div>
@@ -61,7 +61,7 @@ export default class Home extends Component {
                     <div className="block-13 h18"></div>
                 </div>
                 <div>
-                    <div id="bio" className="container">
+                    <div id="bio" className="col-md-10 bio">
                         <div id="about-container">
                             <div className="about-box">
                                 <div className="text">
