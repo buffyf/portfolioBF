@@ -1,431 +1,382 @@
-/* gray-lighter: #f7f7f7;
+        /* gray-lighter: #f7f7f7;
 gray-light: #dbdbdd;
 gray-dark: #aeafb3;
 gray-darker: #40414A;
 #2E6171: pink;
 #E7E247: yellow; */
-
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background: #3A405A;
-    color: #40414A;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.wrap {
-    background: #f7f7f7;
-    /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
-    width: 500px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: repeat(4, minmax(25px, 1fr));
-}
-
-.block {
-    width: 125px;
-    height: 125px;
-}
-
-.block-title {
-    background: #f7f7f7;
-    grid-column-start: 2;
-    grid-column-end: -1;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    display: flex;
-    padding: 3em 3.5em;
-    transition: padding .3s linear;
-    align-items: stretch;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.title-1, .title-2, .title-3 {
-    display: flex;
-    justify-content: center;
-}
-
-.title-1, .title-3 {
-    font-weight: 800;
-    font-size: 3rem;
-}
-
-.title-2 {
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.style-1 {
-    background: #40414A;
-}
-
-.style-2 {
-    width: 0;
-    height: 0;
-    border: 62px solid #f7f7f7;
-    border-top-color: #aeafb3;
-    border-bottom-color: #aeafb3;
-    background: #aeafb3;
-    padding-top: 1px;
-}
-
-.style-3 {
-    background-image: linear-gradient(135deg, #2E6171 50%, #dbdbdd 50%);
-}
-
-.style-4 {
-    background-image: linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
-    background-size: 100% 14px;
-}
-
-.style-5 {
-    background-image: linear-gradient(45deg, #E7E247 50%, #f7f7f7 50%);
-}
-
-.style-6 {
-    background-image: linear-gradient(135deg, #40414A 50%, transparent 50%), linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
-    background-size: 100%, 100% 14px;
-}
-
-.style-7 {
-    background: linear-gradient(45deg, #dbdbdd 50%, transparent 50%), radial-gradient(#40414A 4px, transparent 4px), radial-gradient(#40414A 4px, transparent 4px), transparent;
-    background-size: 100%, 24px 24px, 24px 24px, 100%;
-    background-position: 0 0, -2px 6px, 10px 18px, 0 0;
-}
-
-.style-8 {
-    background-image: linear-gradient(315deg, #E7E247 50%, #f7f7f7 50%);
-}
-
-.style-9 {
-    background-image: linear-gradient(225deg, #2E6171 50%, #f7f7f7 50%);
-}
-
-.style-10 {
-    background: #dbdbdd;
-}
-
-.style-11 {
-    background-image: linear-gradient(45deg, #2E6171 50%, #f7f7f7 50%);
-}
-
-.style-12 {
-    background-image: linear-gradient(225deg, #E7E247 50%, #f7f7f7 50%);
-}
-
-.block-13 {
-    background-image: linear-gradient(to right, #2E6171, #2E6171 4px, #f7f7f7 4px, #f7f7f7);
-    background-size: 8px 100%;
-}
-
-.block-title:hover {
-    background-image: url("../styles/img/buffy_feinsteinBW.jpg");
-    width: 375px;
-    height: 250px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    color: transparent;
-}
-
-.block:hover {
-    box-shadow: 0px 0px 150px gray;
-    z-index: 200;
-    -webkit-transition: all 100ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 100ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 100ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 100ms ease-in;
-    transform: scale(1);
-}
-
-.h1:hover {
-    background-image: url("../styles/img/cheese.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h2:hover {
-    background-image: url("../styles/img/kitten.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h3:hover {
-    background-image: url("../styles/img/hulu.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h4:hover {
-    background-image: url("../styles/img/cake.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h5:hover {
-    background-image: url("../styles/img/martha.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h6:hover {
-    background-image: url("../styles/img/chicago.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h7:hover {
-    background-image: url("../styles/img/queso.jpg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h8:hover {
-    background-image: url("../styles/img/seinfeld1.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h9:hover {
-    background-image: url("../styles/img/cubs.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h10:hover {
-    background-image: url("../styles/img/podcast.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h11:hover {
-    background-image: url("../styles/img/hgtv.jpg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h12:hover {
-    background-image: url("../styles/img/bike.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h13:hover {
-    background-image: url("../styles/img/sewing.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h14:hover {
-    background-image: url("../styles/img/bigstar.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h15:hover {
-    background-image: url("../styles/img/npr.png");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h16:hover {
-    background-image: url("../styles/img/nola.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h17:hover {
-    background-image: url("../styles/img/gunn.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.h18:hover {
-    background-image: url("../styles/img/kitten.jpeg");
-    width: 125px;
-    height: 125px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-#aboutText {
-    background-color: #3A405A;
-    color: white;
-    font-size: 1.5rem;
-    padding: 1rem;
-}
-
-.bio {
-    display: inline-block;
-    max-width: 45vw;
-    min-width: 40vw;
-}
-
-@media (max-width: 855px) {
-    #aboutText {
-        min-width: 45rem;
-    }
-}
-
-@media (max-width: 768px) {
-    #aboutText {
-        min-width: 30rem;
-        padding-left: 2rem;
-    }
-}
-
-
-/* .about-box {
-    padding: 1rem;
-    min-width: 80rem;
-    height: auto;
-} */
-
-
-/* @media (max-width: 736px) {
-    .wrap {
-        margin: 0;
-        padding: 0;
-        width: 50px;
-        border-radius: 5px;
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(25px, 1fr));
-    }
-    .block {
-        width: 25px;
-        height: 25px;
-    }
-    .block-title {
-        display: none;
-    }
-    #about-container {
-        margin: 0;
-        padding: 0;
-    }
-    .block {
-        display: none;
-    }
-    #bio {
-        margin: 0;
-        padding: 0;
-    }
-} */
-
-
-/* @media (max-width: 545px) {
-    .wrap {
-        display: none;
-    }
-    #about-container {
-        top: 0;
-        left: 0;
-        transform: none;
-        position: relative;
-    }
-    #aboutText {
-        font-size: 1em;
-    }
-    #bio {
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-} */
+        
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: #3A405A;
+            color: #40414A;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .wrap {
+            background: #f7f7f7;
+            /* margin-top: 50px; */
+            /* margin-bottom: 50px; */
+            width: 500px;
+            border-radius: 5px;
+            overflow: hidden;
+            display: grid;
+            /* grid-template-columns: repeat(4, 1fr); */
+            grid-template-columns: repeat(4, minmax(25px, 1fr));
+        }
+        
+        .block {
+            width: 125px;
+            height: 125px;
+        }
+        
+        .block-title {
+            background: #f7f7f7;
+            grid-column-start: 2;
+            grid-column-end: -1;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            display: flex;
+            padding: 3em 3.5em;
+            transition: padding .3s linear;
+            align-items: stretch;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        
+        .title-1, .title-2, .title-3 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .title-1, .title-3 {
+            font-weight: 800;
+            font-size: 3rem;
+        }
+        
+        .title-2 {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .style-1 {
+            background: #40414A;
+        }
+        
+        .style-2 {
+            width: 0;
+            height: 0;
+            border: 62px solid #f7f7f7;
+            border-top-color: #aeafb3;
+            border-bottom-color: #aeafb3;
+            background: #aeafb3;
+            padding-top: 1px;
+        }
+        
+        .style-3 {
+            background-image: linear-gradient(135deg, #2E6171 50%, #dbdbdd 50%);
+        }
+        
+        .style-4 {
+            background-image: linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
+            background-size: 100% 14px;
+        }
+        
+        .style-5 {
+            background-image: linear-gradient(45deg, #E7E247 50%, #f7f7f7 50%);
+        }
+        
+        .style-6 {
+            background-image: linear-gradient(135deg, #40414A 50%, transparent 50%), linear-gradient( #f7f7f7, #f7f7f7 7px, #40414A 7px, #40414A);
+            background-size: 100%, 100% 14px;
+        }
+        
+        .style-7 {
+            background: linear-gradient(45deg, #dbdbdd 50%, transparent 50%), radial-gradient(#40414A 4px, transparent 4px), radial-gradient(#40414A 4px, transparent 4px), transparent;
+            background-size: 100%, 24px 24px, 24px 24px, 100%;
+            background-position: 0 0, -2px 6px, 10px 18px, 0 0;
+        }
+        
+        .style-8 {
+            background-image: linear-gradient(315deg, #E7E247 50%, #f7f7f7 50%);
+        }
+        
+        .style-9 {
+            background-image: linear-gradient(225deg, #2E6171 50%, #f7f7f7 50%);
+        }
+        
+        .style-10 {
+            background: #dbdbdd;
+        }
+        
+        .style-11 {
+            background-image: linear-gradient(45deg, #2E6171 50%, #f7f7f7 50%);
+        }
+        
+        .style-12 {
+            background-image: linear-gradient(225deg, #E7E247 50%, #f7f7f7 50%);
+        }
+        
+        .block-13 {
+            background-image: linear-gradient(to right, #2E6171, #2E6171 4px, #f7f7f7 4px, #f7f7f7);
+            background-size: 8px 100%;
+        }
+        
+        .block-title:hover {
+            background-image: url("../styles/img/buffy_feinsteinBW.jpg");
+            width: 375px;
+            height: 250px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+            color: transparent;
+        }
+        
+        .block:hover {
+            box-shadow: 0px 0px 150px gray;
+            z-index: 200;
+            -webkit-transition: all 100ms ease-in;
+            -webkit-transform: scale(1.5);
+            -ms-transition: all 100ms ease-in;
+            -ms-transform: scale(1.5);
+            -moz-transition: all 100ms ease-in;
+            -moz-transform: scale(1.5);
+            transition: all 100ms ease-in;
+            transform: scale(1);
+        }
+        
+        .h1:hover {
+            background-image: url("../styles/img/cheese.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h2:hover {
+            background-image: url("../styles/img/kitten.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h3:hover {
+            background-image: url("../styles/img/hulu.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h4:hover {
+            background-image: url("../styles/img/cake.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h5:hover {
+            background-image: url("../styles/img/martha.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h6:hover {
+            background-image: url("../styles/img/chicago.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h7:hover {
+            background-image: url("../styles/img/queso.jpg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h8:hover {
+            background-image: url("../styles/img/seinfeld1.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h9:hover {
+            background-image: url("../styles/img/cubs.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h10:hover {
+            background-image: url("../styles/img/podcast.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h11:hover {
+            background-image: url("../styles/img/hgtv.jpg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h12:hover {
+            background-image: url("../styles/img/bike.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h13:hover {
+            background-image: url("../styles/img/sewing.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h14:hover {
+            background-image: url("../styles/img/bigstar.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h15:hover {
+            background-image: url("../styles/img/npr.png");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h16:hover {
+            background-image: url("../styles/img/nola.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h17:hover {
+            background-image: url("../styles/img/gunn.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .h18:hover {
+            background-image: url("../styles/img/kitten.jpeg");
+            width: 125px;
+            height: 125px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        #aboutText {
+            background-color: #3A405A;
+            color: white;
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+        
+        .bio {
+            display: inline-block;
+            max-width: 45vw;
+            min-width: 40vw;
+        }
+        
+        @media (max-width: 855px) {
+            .bio {
+                min-width: 45rem;
+            }
+        }
+        
+        @media (max-width: 708px) {
+            .bio {
+                min-width: 25rem;
+                padding: 2rem;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .wrap {
+                display: none;
+            }
+            .row home {
+                width: 100%;
+            }
+        }

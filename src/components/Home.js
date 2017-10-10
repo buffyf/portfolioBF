@@ -61,7 +61,7 @@ export default class Home extends Component {
                     <div className="block-13 h18"></div>
                 </div>
                 <div>
-                    <div id="bio" className="col-md-10 bio">
+                    <div id="bio" className="col-md-9 bio">
                         <div id="about-container">
                             <div className="about-box">
                                 <div className="text">
