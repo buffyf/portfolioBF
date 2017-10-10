@@ -12,3 +12,9 @@
     font-size: 1.4em;
     letter-spacing: .1em;
 }
+
+@media (max-width: 414px) {
+    .solid-footer {
+        display: none;
+    }
+}
