@@ -39,6 +39,15 @@ export default class Home extends Component {
                             <span>E</span>
                             <span>B</span>
                             <span>&nbsp;</span>
+                            <span>&</span>
+                            <span>&nbsp;</span>
+                            <span>M</span>
+                            <span>O</span>
+                            <span>B</span>
+                            <span>I</span>
+                            <span>L</span>
+                            <span>E</span>
+                            <span>&nbsp;</span>
                             <span>D</span>
                             <span>E</span>
                             <span>V</span>
@@ -65,7 +74,7 @@ export default class Home extends Component {
                         <div id="about-container">
                             <div className="about-box">
                                 <div className="text">
-                                    <p id="aboutText">Hi, I'm Buffy. I'm a front-end web developer and designer based out of Chicago, IL. Before pivoting my career to development, I was part of many different collaborative creative processes. Whether coordinating project logistics, integrating technology in the classroom, or baking and decorating the perfect cake - I love making awesome things.
+                                    <p id="aboutText">Hi, I'm Buffy. I'm a web and iOS mobile developer and designer based out of Chicago, IL. Before pivoting my career to development, I was part of many different collaborative creative processes. Whether coordinating project logistics, integrating technology in the classroom, or baking and decorating the perfect cake - I love making awesome things.
                                         <br />
                                         <br />
                                         When I'm not coding, you'll find me baking, making, hiking, biking, cooking, booking, dining, and reclining.</p>

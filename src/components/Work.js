@@ -39,7 +39,7 @@ export default class Work extends Component {
                             <h5>Gabble: Social Site</h5>
                             <p>Gabble is a social site that allows users to signup for an account, login, create and delete posts, like and unlike posts, and also view a list of a comment's likes.</p>
                             <p>Technologies: Node.js, Express, Sequelize, PostgreSQL, Mustache, CSS, HTML, and Amazon Web Services for deployment</p>
-                            <a href="http://buffy-gabble.xyz" className="live-btn" target="_blank">Live Site</a>
+
                             <a href="https://github.com/buffyf/project_gabble" className="github-btn" target="_blank">GitHub</a>
                         </div>
                     </div>
